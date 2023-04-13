@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3D2D5"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="298dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/you" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="363dp"
+        android:layout_height="383dp"
+        android:text="YouTube adalah sebuah situs web berbagi video yang dibuat oleh tiga mantan karyawan PayPal pada Februari 2005. Situs web ini memungkinkan pengguna mengunggah, menonton, dan berbagi video.[8] Perusahaan ini berkantor pusat di San Bruno, California, dan memakai teknologi Adobe Flash Video dan HTML5 untuk menampilkan berbagai macam konten video buatan pengguna/kreator, termasuk klip film, klip TV, dan video musik. Selain itu, konten amatir seperti blog video, video orisinal pendek, dan video pendidikan juga ada dalam situs ini.
+
+Kebanyakan konten di YouTube diunggah oleh individu, meskipun perusahaan-perusahaan media seperti CBS, BBC, Vevo, Hulu, dan organisasi lain sudah mengunggah material mereka ke situs ini sebagai bagian dari program kemitraan YouTube.[9] Pengguna tak terdaftar dapat menonton video, sementara pengguna terdaftar dapat mengunggah video dalam jumlah tak terbatas. Video-video yang dianggap berisi konten ofensif hanya bisa ditonton oleh pengguna terdaftar berusia 18 tahun atau lebih. Pada November 2006, YouTube, LLC dibeli oleh Google dengan nilai US$1,65 miliar dan resmi beroperasi sebagai anak perusahaan Google."
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
